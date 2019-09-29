@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SITE FOOD</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/css/animate.css">
+  <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+  <header id="header" class="header"> <!-- хедер -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 padding__5px">
+          <img src="static/images/logo.png" alt="logo" class="header__logo animated fadeInDown">
+        </div>
+        <div class="col-lg-9 ml-auto padding__5px">
+          <nav>
+            <ul class="menu justify-content-center d-flex animated fadeInDown">
+              <li class="menu__item">
+                <a href="#">
+                  рецепты
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  продукты
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  как приготовить
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  кулинарная книга
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  здоровье
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  авторы
+                </a>
+              </li>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  <i class="fa fa-bell"></i>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  <i class="fa fa-user"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="selection" class="selection"> <!-- подбор рецептов -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 padding__5px">
+          <div class="title animated fadeInDown">
+            <img src="static/images/lines.png" alt="image" class="title__img"> 
+            <h1 class="title__main">
+              Подбор рецептов
+            </h1>
+          </div> 
+        </div>
+      </div>
+      <div class="choise"> <!-- меню выбора -->
+        <form class="form__choise animated fadeInDown" action="#"> 
+          <div class="row">
+            <div class="col-xl-8 padding__5px"> <!-- 1 прямоугольник -->
+              <div class="choise__rectangle d-flex justify-content-center">
+                <div class="rectangle__name">
+                  <select class="rectangle__text">
+                    <option value="1">Любые десерты</option>
+                    <option value="2">Торт</option>
+                    <option value="3">Пудинг</option>
+                    <option value="4">Пирог</option>
+                  <select>
+                </div>
+                <div class="rectangle__name"> <!-- 2 прямоугольник -->
+                  <select class="rectangle__text">
+                    <option value="6">Любое блюдо</option>
+                    <option value="7">Торт</option>
+                    <option value="8">Пудинг</option>
+                    <option value="9">Пирог</option>
+                  <select>
+                </div>
+                <div class="rectangle__name"> <!-- 3 прямоугольник -->
+                  <select class="rectangle__text">
+                    <option value="10">Любая кухня</option>
+                    <option value="11">Торт</option>
+                    <option value="12">Пудинг</option>
+                    <option value="13">Пирог</option>
+                  <select>
+                </div>
+                <div class="rectangle__name"> <!-- 4 прямоугольник -->
+                  <select class="rectangle__text">
+                    <option value="14">Любое меню</option>
+                    <option value="15">Торт</option>
+                    <option value="16">Пудинг</option>
+                    <option value="17">Пирог</option>
+                  <select>
+                </div>
+                <div class="rectangle__name"> <!-- 5 прямоугольник -->
+                  <select class="rectangle__text">
+                    <option value="18">Сложность</option>
+                    <option value="19">Торт</option>
+                    <option value="20">Пудинг</option>
+                    <option value="21">Пирог</option>
+                  <select>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 padding__5px">
+              <div class="inputs">
+                <input type="text" placeholder="Ингридиенты" class="form__input" required>
+              </div>
+            </div>
+            <div class="col-xl-2 padding__5px">
+              <div class="buttons">
+                <button type="submit" class="form__btn">Подобрать рецепты</button> 
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 padding__5px">
+          <div class="bigimage animated fadeIn">
+            <a href="#" class="line__hover">
+              <img src="static/images/chicken.png" alt="chiken" class="bigimage__img">
+              <h4 class="bigimage__text title__text">
+                Блюдо дня
+              </h4>
+              <h1 class="bigimage__main title__main"> 
+                Куриные ножки на гриле 
+              </h1>
+              <img src="static/images/x.png" alt="x" class="bigimage__cutlery">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 padding__5px">
+          <div class="bigimage animated fadeIn">
+            <a href="#" class="line__hover">
+              <img src="static/images/cheese.png" alt="cheese" class="bigimage__img">
+              <h4 class="bigimage__text title__text">
+                Лучшие рецепты недели
+              </h4>
+              <h1 class="bigimage__main title__main"> 
+                7 лучших рецептов недели
+              </h1>
+              <img src="static/images/x.png" alt="x" class="bigimage__cutlery">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 padding__5px">
+          <div class="article animated fadeIn">
+            <a href="#" class="line__hover">
+              <img src="static/images/cake.png" alt="cake" class="article__img">
+              <div class="article__title article__btitle">
+                Как приготовить пирог в одной посуде 5 рецептов
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 small__size padding__5px">
+          <div class="article animated fadeIn">
+            <a href="#" class="line__hover">
+              <img src="static/images/vegetables.png" alt="vegetables" class="article__img">
+              <div class="article__title article__stitle ">
+                Как приготовить сырный торт с овощами
+              </div>
+            </a>   
+          </div>
+        </div> 
+        <div class="col-lg-3 small__size padding__5px">
+          <div class="article animated fadeIn">
+            <a href="#" class="line__hover">
+              <img src="static/images/drinks.png" alt="drinks" class="article__img">
+              <div class="article__title article__stitle ">
+                10 простых напитков в жару
+              </div>
+            </a>   
+          </div>
+        </div> 
+        <div class="col-lg-3 small__size padding__5px">
+          <div class="article animated fadeIn">
+            <a href="#" class="line__hover">
+              <img src="static/images/honey.png" alt="honey" class="article__img">
+              <div class="article__title article__stitle ">
+                Что такое мёд?
+              </div>
+            </a>   
+          </div>
+        </div>
+        <div class="col-lg-3 small__size padding__5px">
+          <div class="article animated fadeIn">
+            <a href="#" class="line__hover">
+              <img src="static/images/woman.png" alt="woman" class="article__img">
+              <div class="article__title article__stitle ">
+                Как замесить дрожжевое тесто?
+              </div>
+            </a>   
+          </div>
+        </div>
+        <div class="col-lg-6 padding__5px">
+          <div class="article animated fadeIn">
+            <a href="#" class="line__hover">
+              <img src="static/images/man.png" alt="man" class="article__img">
+              <div class="article__title article__btitle">
+                Человек, который делает лучшие митболы в бельгии
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <section id="recipes" class="recipes"> <!-- рецепты -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 padding__5px">
+          <div class="title animated fadeInDown">
+            <img src="static/images/lines.png" alt="image" class="title__img">
+            <h1 class="title__main">
+              Рецепты
+            </h1>
+          </div> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 m-auto padding__5px">
+          <ul class="switch d-flex animated fadeInDown">
+            <li class="switch__item">
+              <a href="#">
+                Новые рецепты
+              </a>
+            </li>
+            <li class="switch__item">
+              <a href="#">
+                Популярные
+              </a>
+            </li>
+            <li class="switch__item">
+              <a href="#">
+                Рекомендуем
+              </a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 1 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/foots.png" alt="Ножки" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Утиные ножки с овощами и грудинкой
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      135 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                  говядина, масло топлёное, лук репчатый, 
+                  морковь, редька, перец сладкий, помидоры, 
+                  томат-пюре, картофель, чеснок, бульон мясной,
+                  соль, перец чёрный, зелень петрушки...
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 2 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/pasta.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Салат из свеклы с козьим сыром и медовой заправкой
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      35 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                говядина, масло топлёное, лук репчатый, 
+                морковь, редька, перец сладкий, помидоры, 
+                томат-пюре, картофель
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 3 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/cakemini.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Американский тыквенный пирог с корицей
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      135 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                лук репчатый, морковь, редька, перец сладкий, 
+                помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, 
+                перец чёрный, зелень петрушки...
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 4 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/cezar.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Соте из брюссельской капусты
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      25 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Легко
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                говядина, масло топлёное, лук репчатый, 
+                морковь, редька, перец сладкий, помидоры, 
+                томат-пюре, картофель, чеснок, бульон мясной,
+                соль, перец чёрный
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 5 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/sote.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Жареные баклажаны с помидорами
+                </a>  
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      35 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                говядина, масло топлёное, лук репчатый, 
+                морковь, редька, перец сладкий, помидоры, 
+                томат-пюре, картофель, чеснок, бульон мясной,
+                соль, перец чёрный, зелень петрушки...
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 6 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/eggplant.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Навафрен из говядины
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      35 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                говядина, масло топлёное, лук репчатый, 
+                морковь, редька, перец сладкий, помидоры, 
+                томат-пюре, картофель
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 7 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/navaren.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Брюссельская капуста с белым соусом с сыром
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      35 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                говядина, масло топлёное, лук репчатый, 
+                морковь, редька, перец сладкий, помидоры, 
+                томат-пюре, картофель
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 8 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/cabbage.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                Печеночный торт с морковью и луком
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      35 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                говядина, масло топлёное, лук репчатый, 
+                морковь, редька, перец сладкий, помидоры, 
+                томат-пюре, картофель
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 9 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/cakemini2.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Классический крабовый салат с огурцом и мидиями
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      35 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                говядина, масло топлёное, лук репчатый, 
+                морковь, редька, перец сладкий, помидоры, 
+                томат-пюре, картофель, чеснок, бульон мясной,
+                соль, перец чёрный, зелень петрушки...
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 padding__5px"> <!-- рецепт 10 -->
+          <div class="recipe d-flex animated fadeIn"> 
+            <img src="static/images/cucumber.png" alt="Паста" class="recipe__img">
+            <div class="recipe__block">
+              <div class="recipe__title">
+                <a href="#">
+                  Салат из свеклы с козьим сыром и медовой заправкой
+                </a>
+              </div>
+              <ul class="recipe__options"> <!-- мелкие штучки после заголовка -->
+                <li class="recipe__opt d-flex"> 
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-clock-o"></i>
+                    </li>
+                    <li class="option__comp">
+                      35 мин
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-smile-o fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      Сложно
+                    </li>
+                  </ul>
+                  <ul class="option__components d-flex">
+                    <li class="option__icomp">
+                      <i class="fa fa-cutlery"></i>
+                    </li>
+                    <li class="option__comp">
+                      125 Ккал
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="recipe__ingredients">
+                говядина, масло топлёное, лук репчатый, 
+                морковь, редька, перец сладкий, помидоры, 
+                томат-пюре, картофель
+              </div>
+              <div class="recipe__faicons d-flex">
+                <div class="likes d-flex">
+                  <i class="heart fa fa-heart-o"></i>
+                  <div class="likes__quantity">
+                    16
+                  </div>
+                </div>
+                <div class="subscriptions">
+                  <ul class="subs d-flex">
+                    <li class="social">
+                      <i class="fa fa-vk"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-facebook"></i>
+                    </li>
+                    <li class="social">
+                      <i class="fa fa-odnoklassniki"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="hot" class="hot"> <!-- горячая подборка -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 padding__5px">
+          <div class="title animated fadeInDown">
+              <img src="static/images/lines.png" alt="image" class="title__img"> 
+            <h1 class="title__main">
+              #Горячаяподборка
+            </h1>
+          </div> 
+        </div>
+      </div>
+      <div class="row hot__margin">
+        <div class="col-lg-3 small__hotsize padding__5px"> <!-- картинка 1 -->
+          <div class="hot__rectangle animated fadeIn">
+            <img src="static/images/blue.png" alt="berries" class="hot__img">
+            <div class="hot__title">
+              Похмельные рецепты
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 small__hotsize padding__5px"> <!-- картинка 2 -->
+          <div class="hot__rectangle animated fadeIn">
+            <img src="static/images/yellow.png" alt="yellow" class="hot__img">
+            <div class="hot__title">
+              Масленица
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 small__hotsize padding__5px"> <!-- картинка 3 -->
+          <div class="hot__rectangle animated fadeIn">
+            <img src="static/images/red.png" alt="red" class="hot__img">
+            <div class="hot__title">
+              Рецепты для детей
+            </div>
+          </div>
+        </div> 
+        <div class="col-lg-3 small__hotsize padding__5px"> <!-- картинка 4 -->
+          <div class="hot__rectangle animated fadeIn">
+            <img src="static/images/brown.png" alt="brown" class="hot__img">
+            <div class="hot__title">
+              Здоровое питание
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="subscribe" class="subscribe"> <!-- подписка -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 padding__5px">
+          <div class="sub__title animated fadeInRight">
+            Подпишитесь на рассылку рецептов и советов
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 m-auto">
+          <form class="email animated fadeInRight" action="#">
+            <input type="email" placeholder="Адрес электронной почты" class="email__input" required>
+            <button type="submit" class="email__btn">
+              <img src="static/images/arrow-btn.png" alt="Отправить" class="arrow__img">
+            </button> 
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer" class="footer"> <!-- футер -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 padding__5px animated fadeInRight">
+          <ul class="footer__menu d-flex">
+            <li class="fmenu__item">
+              <a href="#">
+                Главная
+              </a>
+            </li>
+            <li class="fmenu__item">
+              <a href="#">
+                Рецепты
+              </a>
+            </li>
+            <li class="fmenu__item">
+              <a href="#">
+                 Идеи
+              </a>
+            </li>
+            <li class="fmenu__item">
+              <a href="#">
+                Журнал
+              </a>
+            </li>
+            <li class="fmenu__item">
+              <a href="#">
+                Авторы
+              </a>
+            </li>
+            <li class="fmenu__item">
+              <a href="#">
+                Реклама
+              </a>
+            </li>
+            <li class="fmenu__item">
+              <a href="#">
+                FAQ
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 padding__5px ml-auto">
+          <ul class="fsocial d-flex animated fadeInRight">
+            <li class="fsocial__item">
+              <a href="#">
+                <i class="fa fa-vk"></i>
+              </a>
+            </li>
+            <li class="fsocial__item">
+              <a href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="fsocial__item">
+              <a href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li class="fsocial__item">
+              <a href="#">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
